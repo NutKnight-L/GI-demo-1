@@ -144,7 +144,7 @@ var zWep = [
     id: 11304,
     skillAffixName: "过载",
     skillAffixText:
-      "触发超载、超导、感电或雷元素扩散反应后的12秒内，攻击力提高<span>20%</span>。",
+      "触发超载、超导、感电、原激化、超激化、超绽放或雷元素扩散反应后的12秒内，攻击力提高<span>20%</span>。",
     skillAffixValue: {
       level1: [0.20000000298023224, 12],
       level2: [0.25, 12],
@@ -531,6 +531,37 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Sword_Outlaw_Awaken",
   },
   {
+    weaponName: "降临之剑",
+    weaponType: "单手剑",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 38.74129867553711,
+        type: "GROW_CURVE_ATTACK_101",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.07660000026226044,
+        type: "GROW_CURVE_CRITICAL_101",
+        propType: "攻击力百分比",
+      },
+    ],
+    descText: "造型独特的剑。看起来并不属于这个世界。",
+    id: 11412,
+    skillAffixName: "降世",
+    skillAffixText:
+      '<span>仅在以下平台生效：</span>\n<span>"PlayStation Network"</span>\n普通攻击与重击命中敌人后有<span>50%</span>概率在小范围内造成<span>200%</span>攻击力的伤害。该效果每10秒只能触发一次；此外，旅行者装备降临之剑时，攻击力提升<span>66</span>点。',
+    skillAffixValue: {
+      level1: [0.5, 2, 10, 66],
+      level2: [],
+      level3: [],
+      level4: [],
+      level5: [],
+    },
+    icon: "UI_EquipIcon_Sword_Psalmus",
+    awakeIcon: "UI_EquipIcon_Sword_Psalmus_Awaken",
+  },
+  {
     weaponName: "腐殖之剑",
     weaponType: "单手剑",
     rankLevel: 4,
@@ -655,6 +686,37 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Sword_Youtou",
     awakeIcon: "UI_EquipIcon_Sword_Youtou_Awaken",
+  },
+  {
+    weaponName: "原木刀",
+    weaponType: "单手剑",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 43.734901428222656,
+        type: "GROW_CURVE_ATTACK_202",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.06666699796915054,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素充能效率",
+      },
+    ],
+    descText: "从兰那罗的故事中得到的武器。具有刀的形制，能够贯穿森林的敌人。",
+    id: 11417,
+    skillAffixName: "森林的瑞佑",
+    skillAffixText:
+      "触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升<span>60</span>点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。",
+    skillAffixValue: {
+      level1: [60, 12, 20, 10],
+      level2: [75, 12, 20, 10],
+      level3: [90, 12, 20, 10],
+      level4: [105, 12, 20, 10],
+      level5: [120, 12, 20, 10],
+    },
+    icon: "UI_EquipIcon_Sword_Arakalari",
+    awakeIcon: "UI_EquipIcon_Sword_Arakalari_Awaken",
   },
   {
     weaponName: "风鹰剑",
@@ -1053,6 +1115,38 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Claymore_Tin",
     awakeIcon: "UI_EquipIcon_Claymore_Tin_Awaken",
+  },
+  {
+    weaponName: "石英大剑",
+    weaponType: "双手剑",
+    rankLevel: 3,
+    weaponProp: [
+      {
+        initValue: 38.74129867553711,
+        type: "GROW_CURVE_ATTACK_101",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 30.600000381469727,
+        type: "GROW_CURVE_CRITICAL_101",
+        propType: "元素精通",
+      },
+    ],
+    descText:
+      "古朴厚重的大剑，由坚固的黑色石英雕琢打磨而成，上面有着鎏金的花纹，尽显优雅庄严。",
+    id: 12304,
+    skillAffixName: "余热",
+    skillAffixText:
+      "触发超载、融化、燃烧、蒸发、烈绽放或火元素扩散反应后的12秒内，攻击力提高<span>20%</span>。",
+    skillAffixValue: {
+      level1: [0.20000000298023224],
+      level2: [0.25],
+      level3: [0.30000001192092896],
+      level4: [0.3499999940395355],
+      level5: [0.4000000059604645],
+    },
+    icon: "UI_EquipIcon_Claymore_Quartz",
+    awakeIcon: "UI_EquipIcon_Claymore_Quartz_Awaken",
   },
   {
     weaponName: "以理服人",
@@ -1555,6 +1649,38 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Claymore_Maria_Awaken",
   },
   {
+    weaponName: "森林王器",
+    weaponType: "双手剑",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 43.734901428222656,
+        type: "GROW_CURVE_ATTACK_202",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.06666699796915054,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素充能效率",
+      },
+    ],
+    descText:
+      "从兰那罗的故事中得到的武器。具有大剑的形制，能够粉碎森林的敌人。",
+    id: 12417,
+    skillAffixName: "森林的瑞佑",
+    skillAffixText:
+      "触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「种识之叶」。拾取种识之叶的角色元素精通提升<span>60</span>点，持续12秒。每20秒至多通过这种方式产生一枚种识之叶。角色处于队伍后台时也能触发。种识之叶的效果无法叠加。",
+    skillAffixValue: {
+      level1: [60, 12, 20, 10],
+      level2: [75, 12, 20, 10],
+      level3: [90, 12, 20, 10],
+      level4: [105, 12, 20, 10],
+      level5: [120, 12, 20, 10],
+    },
+    icon: "UI_EquipIcon_Claymore_Arakalari",
+    awakeIcon: "UI_EquipIcon_Claymore_Arakalari_Awaken",
+  },
+  {
     weaponName: "天空之傲",
     weaponType: "双手剑",
     rankLevel: 5,
@@ -1850,6 +1976,36 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Pole_Noire",
     awakeIcon: "UI_EquipIcon_Pole_Noire_Awaken",
+  },
+  {
+    weaponName: "「旗杆」",
+    weaponType: "长柄武器",
+    rankLevel: 3,
+    weaponProp: [
+      {
+        initValue: 9.899999618530273,
+        type: "GROW_CURVE_ATTACK_101",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: undefined,
+        type: "GROW_CURVE_CRITICAL_101",
+        propType: "undefined",
+      },
+    ],
+    descText: "备用",
+    id: 13304,
+    skillAffixName: "待定",
+    skillAffixText: "击败敌人时，恢复<span>8%</span>生命值。",
+    skillAffixValue: {
+      level1: [0.07999999821186066],
+      level2: [0.10000000149011612],
+      level3: [0.11999999731779099],
+      level4: [0.14000000059604645],
+      level5: [0.1599999964237213],
+    },
+    icon: "UI_EquipIcon_Pole_Flagpole",
+    awakeIcon: "UI_EquipIcon_Pole_Flagpole_Awaken",
   },
   {
     weaponName: "匣里灭辰",
@@ -2231,6 +2387,38 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Pole_Maria_Awaken",
   },
   {
+    weaponName: "贯月矢",
+    weaponType: "长柄武器",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 43.734901428222656,
+        type: "GROW_CURVE_ATTACK_202",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 24,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素精通",
+      },
+    ],
+    descText:
+      "从兰那罗的故事中得到的武器。形制如同巨大的箭矢，能够作为枪矛使用。",
+    id: 13417,
+    skillAffixName: "幽林月影",
+    skillAffixText:
+      "触发燃烧、原激化、超激化、蔓激化、绽放、超绽放或烈绽放后，将在角色周围产生至多存在10秒的「苏生之叶」。拾取苏生之叶的角色攻击力提升<span>16%</span>，持续12秒。每20秒至多通过这种方式产生一枚苏生之叶。角色处于队伍后台时也能触发。",
+    skillAffixValue: {
+      level1: [0.1599999964237213, 12, 20, 10],
+      level2: [0.20000000298023224, 12, 20, 10],
+      level3: [0.23999999463558197, 12, 20, 10],
+      level4: [0.2800000011920929, 12, 20, 10],
+      level5: [0.3199999928474426, 12, 20, 10],
+    },
+    icon: "UI_EquipIcon_Pole_Arakalari",
+    awakeIcon: "UI_EquipIcon_Pole_Arakalari_Awaken",
+  },
+  {
     weaponName: "护摩之杖",
     weaponType: "长柄武器",
     rankLevel: 5,
@@ -2573,7 +2761,7 @@ var zWep = [
     id: 14304,
     skillAffixName: "激流",
     skillAffixText:
-      "触发蒸发、感电、冰冻或水元素扩散反应后的12秒内，攻击力提高<span>20%</span>。",
+      "触发蒸发、感电、冰冻、绽放或水元素扩散后的12秒内，攻击力提高<span>20%</span>。",
     skillAffixValue: {
       level1: [0.20000000298023224],
       level2: [0.25],
@@ -2614,6 +2802,37 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Catalyst_Phoney",
     awakeIcon: "UI_EquipIcon_Catalyst_Phoney_Awaken",
+  },
+  {
+    weaponName: "琥珀玥",
+    weaponType: "法器",
+    rankLevel: 3,
+    weaponProp: [
+      {
+        initValue: 38.74129867553711,
+        type: "GROW_CURVE_ATTACK_101",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 30.600000381469727,
+        type: "GROW_CURVE_CRITICAL_101",
+        propType: "元素精通",
+      },
+    ],
+    descText: "用琥珀雕磨制成的法器，在日照下会散发出温暖的光晕。",
+    id: 14306,
+    skillAffixName: "元素熟练",
+    skillAffixText:
+      "普通攻击命中后，获得<span>6%</span>元素伤害加成。该效果持续6秒，最多可以叠加2层。",
+    skillAffixValue: {
+      level1: [0.05999999865889549, 6],
+      level2: [0.07500000298023224, 6],
+      level3: [0.09000000357627869, 6],
+      level4: [0.10499999672174454, 6],
+      level5: [0.11999999731779099, 6],
+    },
+    icon: "UI_EquipIcon_Catalyst_Amber",
+    awakeIcon: "UI_EquipIcon_Catalyst_Amber_Awaken",
   },
   {
     weaponName: "西风秘典",
@@ -3058,6 +3277,37 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Catalyst_Jyanome_Awaken",
   },
   {
+    weaponName: "盈满之实",
+    weaponType: "法器",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 42.4010009765625,
+        type: "GROW_CURVE_ATTACK_201",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.10000000149011612,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素充能效率",
+      },
+    ],
+    descText: "从兰那罗的故事中得到的果实。其中蕴含着战胜任何危机的潜能。",
+    id: 14417,
+    skillAffixName: "圆满之相",
+    skillAffixText:
+      "触发元素反应后，获得「盈缺」效果：元素精通提升<span>24</span>点，攻击力降低5%。每0.3秒至多获得一层盈缺效果，至多叠加5层。未触发元素反应时将每6秒失去一层。角色处于队伍后台时也能触发效果。",
+    skillAffixValue: {
+      level1: [-0.05000000074505806, 24, 0.30000001192092896, 6],
+      level2: [-0.05000000074505806, 27, 0.30000001192092896, 6],
+      level3: [-0.05000000074505806, 30, 0.30000001192092896, 6],
+      level4: [-0.05000000074505806, 33, 0.30000001192092896, 6],
+      level5: [-0.05000000074505806, 36, 0.30000001192092896, 6],
+    },
+    icon: "UI_EquipIcon_Catalyst_Arakalari",
+    awakeIcon: "UI_EquipIcon_Catalyst_Arakalari_Awaken",
+  },
+  {
     weaponName: "天空之卷",
     weaponType: "法器",
     rankLevel: 5,
@@ -3418,6 +3668,36 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Bow_Msg",
     awakeIcon: "UI_EquipIcon_Bow_Msg_Awaken",
+  },
+  {
+    weaponName: "黑檀弓",
+    weaponType: "弓",
+    rankLevel: 3,
+    weaponProp: [
+      {
+        initValue: 38.74129867553711,
+        type: "GROW_CURVE_ATTACK_101",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.07660000026226044,
+        type: "GROW_CURVE_CRITICAL_101",
+        propType: "攻击力百分比",
+      },
+    ],
+    descText: "用檀木制成的长弓，弓臂比寻常木材硬。因此力量也更大。",
+    id: 15306,
+    skillAffixName: "摧坚",
+    skillAffixText: "对遗迹机关类敌人：造成的伤害提高<span>40%</span>。",
+    skillAffixValue: {
+      level1: [0.4000000059604645],
+      level2: [0.5],
+      level3: [0.6000000238418579],
+      level4: [0.699999988079071],
+      level5: [0.800000011920929],
+    },
+    icon: "UI_EquipIcon_Bow_Hardwood",
+    awakeIcon: "UI_EquipIcon_Bow_Hardwood_Awaken",
   },
   {
     weaponName: "西风猎弓",
@@ -3882,7 +4162,7 @@ var zWep = [
     id: 15415,
     skillAffixName: "强力攻击",
     skillAffixText:
-      "<span>仅在以下平台生效：</span>\n<span>'PlayStation Network'</span>\n对敌人造成冰元素伤害后，普通攻击与重击造成的伤害提高10%，该效果持续6秒，至多叠加2次；此外，埃洛伊装备掠食者时，攻击力提升66点。",
+      '<span>仅在以下平台生效：</span>\n<span>"PlayStation Network"</span>\n对敌人造成冰元素伤害后，普通攻击与重击造成的伤害提高10%，该效果持续6秒，至多叠加2次；此外，埃洛伊装备掠食者时，攻击力提升66点。',
     skillAffixValue: {
       level1: [0.10000000149011612, 6, 66],
       level2: [],
@@ -3923,6 +4203,68 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Bow_Maria",
     awakeIcon: "UI_EquipIcon_Bow_Maria_Awaken",
+  },
+  {
+    weaponName: "王下近侍",
+    weaponType: "弓",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 41.067100524902344,
+        type: "GROW_CURVE_ATTACK_204",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.11999999731779099,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "攻击力百分比",
+      },
+    ],
+    descText: "从兰那罗的故事中得到的武器。具有弓的形制，能够射落森林的敌人。",
+    id: 15417,
+    skillAffixName: "迷宫之王的教导",
+    skillAffixText:
+      "施放元素战技或元素爆发时，将获得「森林教诲」的效果，元素精通提升<span>60</span>点，持续12秒。该效果将在切换角色时移除。森林教诲的持续时间结束或被移除时，将对附近一名敌人造成<span>100%</span>攻击力的伤害。森林教诲每20秒至多触发一次。",
+    skillAffixValue: {
+      level1: [60, 12, 1, 20],
+      level2: [80, 12, 1.2000000476837158, 20],
+      level3: [100, 12, 1.399999976158142, 20],
+      level4: [120, 12, 1.600000023841858, 20],
+      level5: [140, 12, 1.7999999523162842, 20],
+    },
+    icon: "UI_EquipIcon_Bow_Arakalari",
+    awakeIcon: "UI_EquipIcon_Bow_Arakalari_Awaken",
+  },
+  {
+    weaponName: "竭泽",
+    weaponType: "弓",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 42.4010009765625,
+        type: "GROW_CURVE_ATTACK_201",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.10000000149011612,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素充能效率",
+      },
+    ],
+    descText: "似乎是如今已经绝种的鱼。身躯富有弹性，系上绳索后能充当弓使用。",
+    id: 15418,
+    skillAffixName: "网破",
+    skillAffixText:
+      "施放元素战技后，将触发「沿洄」效果，在攻击命中敌人时造成<span>80%</span>攻击力的范围伤害，该效果将在15秒或触发3次范围伤害后移除。每2秒至多通过这种方式造成一次范围伤害，每12秒至多触发一次沿洄。",
+    skillAffixValue: {
+      level1: [0.800000011920929, 15, 3, 2, 12],
+      level2: [1, 15, 3, 2, 12],
+      level3: [1.2000000476837158, 15, 3, 2, 12],
+      level4: [1.399999976158142, 15, 3, 2, 12],
+      level5: [1.600000023841858, 15, 3, 2, 12],
+    },
+    icon: "UI_EquipIcon_Bow_Fin",
+    awakeIcon: "UI_EquipIcon_Bow_Fin_Awaken",
   },
   {
     weaponName: "天空之翼",
@@ -4139,5 +4481,36 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Bow_Narukami",
     awakeIcon: "UI_EquipIcon_Bow_Narukami_Awaken",
+  },
+  {
+    weaponName: "猎人之径",
+    weaponType: "弓",
+    rankLevel: 5,
+    weaponProp: [
+      {
+        initValue: 44.33580017089844,
+        type: "GROW_CURVE_ATTACK_304",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.09600000083446503,
+        type: "GROW_CURVE_CRITICAL_301",
+        propType: "暴击率",
+      },
+    ],
+    descText: "以珍贵的白枝制成的饰金猎弓，曾经射落无数侵入森林的恶兽。",
+    id: 15511,
+    skillAffixName: "兽径的终点",
+    skillAffixText:
+      "获得<span>12%</span>所有元素伤害加成。重击命中敌人后，将获得「无休止的狩猎」：重击造成的伤害值提高，提高值相当于元素精通数值的<span>160%</span>。该效果将在生效12次或10秒后消失，每12秒至多获得一次无休止的狩猎。",
+    skillAffixValue: {
+      level1: [0.11999999731779099, 1.600000023841858, 12, 10, 12],
+      level2: [0.15000000596046448, 2, 12, 10, 12],
+      level3: [0.18000000715255737, 2.4000000953674316, 12, 10, 12],
+      level4: [0.20999999344348907, 2.799999952316284, 12, 10, 12],
+      level5: [0.23999999463558197, 3.200000047683716, 12, 10, 12],
+    },
+    icon: "UI_EquipIcon_Bow_Ayus",
+    awakeIcon: "UI_EquipIcon_Bow_Ayus_Awaken",
   },
 ];
