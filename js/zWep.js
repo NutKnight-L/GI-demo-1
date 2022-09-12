@@ -1978,36 +1978,6 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Pole_Noire_Awaken",
   },
   {
-    weaponName: "「旗杆」",
-    weaponType: "长柄武器",
-    rankLevel: 3,
-    weaponProp: [
-      {
-        initValue: 9.899999618530273,
-        type: "GROW_CURVE_ATTACK_101",
-        propType: "FIGHT_PROP_BASE_ATTACK",
-      },
-      {
-        initValue: undefined,
-        type: "GROW_CURVE_CRITICAL_101",
-        propType: "undefined",
-      },
-    ],
-    descText: "备用",
-    id: 13304,
-    skillAffixName: "待定",
-    skillAffixText: "击败敌人时，恢复<span>8%</span>生命值。",
-    skillAffixValue: {
-      level1: [0.07999999821186066],
-      level2: [0.10000000149011612],
-      level3: [0.11999999731779099],
-      level4: [0.14000000059604645],
-      level5: [0.1599999964237213],
-    },
-    icon: "UI_EquipIcon_Pole_Flagpole",
-    awakeIcon: "UI_EquipIcon_Pole_Flagpole_Awaken",
-  },
-  {
     weaponName: "匣里灭辰",
     weaponType: "长柄武器",
     rankLevel: 4,
