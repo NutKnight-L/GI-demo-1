@@ -1117,38 +1117,6 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Claymore_Tin_Awaken",
   },
   {
-    weaponName: "石英大剑",
-    weaponType: "双手剑",
-    rankLevel: 3,
-    weaponProp: [
-      {
-        initValue: 38.74129867553711,
-        type: "GROW_CURVE_ATTACK_101",
-        propType: "FIGHT_PROP_BASE_ATTACK",
-      },
-      {
-        initValue: 30.600000381469727,
-        type: "GROW_CURVE_CRITICAL_101",
-        propType: "元素精通",
-      },
-    ],
-    descText:
-      "古朴厚重的大剑，由坚固的黑色石英雕琢打磨而成，上面有着鎏金的花纹，尽显优雅庄严。",
-    id: 12304,
-    skillAffixName: "余热",
-    skillAffixText:
-      "触发超载、融化、燃烧、蒸发、烈绽放或火元素扩散反应后的12秒内，攻击力提高<span>20%</span>。",
-    skillAffixValue: {
-      level1: [0.20000000298023224],
-      level2: [0.25],
-      level3: [0.30000001192092896],
-      level4: [0.3499999940395355],
-      level5: [0.4000000059604645],
-    },
-    icon: "UI_EquipIcon_Claymore_Quartz",
-    awakeIcon: "UI_EquipIcon_Claymore_Quartz_Awaken",
-  },
-  {
     weaponName: "以理服人",
     weaponType: "双手剑",
     rankLevel: 3,
@@ -2774,37 +2742,6 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Catalyst_Phoney_Awaken",
   },
   {
-    weaponName: "琥珀玥",
-    weaponType: "法器",
-    rankLevel: 3,
-    weaponProp: [
-      {
-        initValue: 38.74129867553711,
-        type: "GROW_CURVE_ATTACK_101",
-        propType: "FIGHT_PROP_BASE_ATTACK",
-      },
-      {
-        initValue: 30.600000381469727,
-        type: "GROW_CURVE_CRITICAL_101",
-        propType: "元素精通",
-      },
-    ],
-    descText: "用琥珀雕磨制成的法器，在日照下会散发出温暖的光晕。",
-    id: 14306,
-    skillAffixName: "元素熟练",
-    skillAffixText:
-      "普通攻击命中后，获得<span>6%</span>元素伤害加成。该效果持续6秒，最多可以叠加2层。",
-    skillAffixValue: {
-      level1: [0.05999999865889549, 6],
-      level2: [0.07500000298023224, 6],
-      level3: [0.09000000357627869, 6],
-      level4: [0.10499999672174454, 6],
-      level5: [0.11999999731779099, 6],
-    },
-    icon: "UI_EquipIcon_Catalyst_Amber",
-    awakeIcon: "UI_EquipIcon_Catalyst_Amber_Awaken",
-  },
-  {
     weaponName: "西风秘典",
     weaponType: "法器",
     rankLevel: 4,
@@ -3638,36 +3575,6 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Bow_Msg",
     awakeIcon: "UI_EquipIcon_Bow_Msg_Awaken",
-  },
-  {
-    weaponName: "黑檀弓",
-    weaponType: "弓",
-    rankLevel: 3,
-    weaponProp: [
-      {
-        initValue: 38.74129867553711,
-        type: "GROW_CURVE_ATTACK_101",
-        propType: "FIGHT_PROP_BASE_ATTACK",
-      },
-      {
-        initValue: 0.07660000026226044,
-        type: "GROW_CURVE_CRITICAL_101",
-        propType: "攻击力百分比",
-      },
-    ],
-    descText: "用檀木制成的长弓，弓臂比寻常木材硬。因此力量也更大。",
-    id: 15306,
-    skillAffixName: "摧坚",
-    skillAffixText: "对遗迹机关类敌人：造成的伤害提高<span>40%</span>。",
-    skillAffixValue: {
-      level1: [0.4000000059604645],
-      level2: [0.5],
-      level3: [0.6000000238418579],
-      level4: [0.699999988079071],
-      level5: [0.800000011920929],
-    },
-    icon: "UI_EquipIcon_Bow_Hardwood",
-    awakeIcon: "UI_EquipIcon_Bow_Hardwood_Awaken",
   },
   {
     weaponName: "西风猎弓",

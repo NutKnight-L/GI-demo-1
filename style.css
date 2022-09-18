@@ -1,9 +1,11 @@
 @import url('https://fonts.font.im/css?family=Muli');
-*{
+
+* {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 body {
     font-family: 'Muli', sans-serif;
     background-color: slategrey;
@@ -20,34 +22,43 @@ body {
     background-color: rgb(234, 234, 234);
     box-shadow: 0px 0px 30px rgb(89, 89, 89);
 }
+
 .baseInfo {
     width: 100%;
+    height: 120px;
     background-color: rgb(200, 200, 200);
     position: relative;
+    overflow: hidden;
 }
+
 .baseInfo img {
     height: 100%;
     position: absolute;
     right: 0;
     top: 0;
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.788));
 }
-.descInfo{
+
+.descInfo {
     width: 100%;
     background-color: rgb(234, 234, 234);
 }
+
 .descText {
     margin-top: 20px;
     margin-bottom: 40px;
     font-weight: bold;
     color: rgb(108, 108, 108);
 }
+
 h4,
 h2,
-p{
+p {
     margin-left: 10px;
     margin-right: 10px;
 }
-#rect{
+
+#rect {
     width: 1.5em;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.6);
@@ -67,9 +78,10 @@ p{
     left: 50px;
     transform: translateY(-50%);
     /* background-color: red; */
-    
+
 
 }
+
 .module {
     width: 80px;
     height: 80px;
@@ -83,6 +95,7 @@ p{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .module:hover img {
     /* background-color: rgb(234, 234, 234); */
     transform: scale(1.4);
@@ -91,6 +104,7 @@ p{
     /* border-radius: 10px; */
     filter: brightness(2) drop-shadow(0 0 2px rgb(0, 0, 0));
 }
+
 .module img {
     width: 70px;
     transition: all .3s;
@@ -101,13 +115,15 @@ p{
     background-color: transparent;
     filter: brightness(1) drop-shadow(0 0 2px rgb(0, 0, 0)) contrast(220%);
 }
+
 .module:hover .wepList {
     display: grid;
-    grid-template-columns: repeat(4,6em);
-    grid-template-rows: repeat(auto-fill,2em);
+    grid-template-columns: repeat(4, 6em);
+    grid-template-rows: repeat(auto-fill, 2em);
     row-gap: 10px;
     column-gap: 10px;
 }
+
 .wepList {
     width: auto;
     /* height: 200px; */
@@ -120,6 +136,7 @@ p{
     cursor: default;
     padding: 10px;
 }
+
 .wepList span {
     width: 6em;
     height: 2em;
@@ -131,17 +148,61 @@ p{
     text-align: center;
     cursor: pointer;
 }
+
 .wepList span:hover{
     background-color: slategrey;
     color: white;
     font-weight: bold;
     transition: all .2s;
 }
+
 .descInfo span {
     color: rgb(52,
-        154,
-        204);
+            154,
+            204);
 }
+
 .descInfo h4:nth-child(3) {
     text-indent: 1em;
+}
+
+.op2 {
+    width: 80px;
+    height: 50px;
+    background-color: rgb(234, 234, 234);
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(39, 39, 39);
+    /* transform: translateY(-50%); */
+}
+
+h2:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+}
+.loading {
+    width: 80px;
+    height: 80px;
+    border: 5px solid #000;
+    border-top-color: #fff;
+    border-radius: 100%;
+    animation: circle infinite 0.75s linear;
+    /* background-color: #fff; */
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+@keyframes circle {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
