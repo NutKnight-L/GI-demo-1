@@ -719,6 +719,37 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Sword_Arakalari_Awaken",
   },
   {
+    weaponName: "西福斯的月光",
+    weaponType: "单手剑",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 42.4010009765625,
+        type: "GROW_CURVE_ATTACK_201",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 36,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素精通",
+      },
+    ],
+    descText: "闪着月色光彩的古老双刃剑。据说其中寄寓着如今已经沉默的镇灵。",
+    id: 11418,
+    skillAffixName: "镇灵的低语",
+    skillAffixText:
+      "每10秒，产生如下效果：装备者的每点元素精通，都会为该角色提升<span>0.036%</span>元素充能效率，并基于该提升的30%为队伍中附近的其他角色提升元素充能效率，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+    skillAffixValue: {
+      level1: [10, 0.035999998450279236, 12, 0.30000001192092896],
+      level2: [10, 0.04500000178813934, 12, 0.30000001192092896],
+      level3: [10, 0.05400000140070915, 12, 0.30000001192092896],
+      level4: [10, 0.06300000101327896, 12, 0.30000001192092896],
+      level5: [10, 0.07199999690055847, 12, 0.30000001192092896],
+    },
+    icon: "UI_EquipIcon_Sword_Pleroma",
+    awakeIcon: "UI_EquipIcon_Sword_Pleroma_Awaken",
+  },
+  {
     weaponName: "风鹰剑",
     weaponType: "单手剑",
     rankLevel: 5,
@@ -987,6 +1018,53 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Sword_Amenoma",
     awakeIcon: "UI_EquipIcon_Sword_Amenoma_Awaken",
+  },
+  {
+    weaponName: "圣显之钥",
+    weaponType: "单手剑",
+    rankLevel: 5,
+    weaponProp: [
+      {
+        initValue: 44.33580017089844,
+        type: "GROW_CURVE_ATTACK_304",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.14399999380111694,
+        type: "GROW_CURVE_CRITICAL_301",
+        propType: "生命值百分比",
+      },
+    ],
+    descText:
+      "黑曜石塑造的一对的权杖中的一件。在传说中，隐藏在沙海尽头的乐园门扉是由这柄密钥开启的。",
+    id: 11511,
+    skillAffixName: "沉入沙海的史诗",
+    skillAffixText:
+      "生命值提升<span>20%</span>。元素战技命中敌人时，将产生持续20秒的「宏大诗篇」效果：基于装备者生命值上限的<span>0.12%</span>，获得元素精通提升，该效果每0.3秒至多触发一次，至多叠加3层。该效果叠加至3层或3层的持续时间刷新时，将基于装备者生命值上限的<span>0.2%</span>，为队伍中附近所有角色提供元素精通提升，持续20秒。",
+    skillAffixValue: {
+      level1: [
+        0.20000000298023224, 0.0012000000569969416, 20, 0.30000001192092896,
+        0.0020000000949949026, 20,
+      ],
+      level2: [
+        0.25, 0.001500000013038516, 20, 0.30000001192092896,
+        0.0024999999441206455, 20,
+      ],
+      level3: [
+        0.30000001192092896, 0.0017999999690800905, 20, 0.30000001192092896,
+        0.003000000026077032, 20,
+      ],
+      level4: [
+        0.3499999940395355, 0.002099999925121665, 20, 0.30000001192092896,
+        0.0035000001080334187, 20,
+      ],
+      level5: [
+        0.4000000059604645, 0.002400000113993883, 20, 0.30000001192092896,
+        0.004000000189989805, 20,
+      ],
+    },
+    icon: "UI_EquipIcon_Sword_Deshret",
+    awakeIcon: "UI_EquipIcon_Sword_Deshret_Awaken",
   },
   {
     weaponName: "训练大剑",
@@ -1585,6 +1663,37 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Claymore_Bakufu_Awaken",
   },
   {
+    weaponName: "玛海菈的水色",
+    weaponType: "双手剑",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 42.4010009765625,
+        type: "GROW_CURVE_ATTACK_201",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 36,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素精通",
+      },
+    ],
+    descText: "一柄光泽如水的古老大剑，经过千年流沙磨洗，锋刃依然锐利异常。",
+    id: 12415,
+    skillAffixName: "沙上楼阁",
+    skillAffixText:
+      "每10秒，产生如下效果：基于装备者的元素精通的<span>24%</span>，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+    skillAffixValue: {
+      level1: [10, 0.23999999463558197, 12, 0.30000001192092896],
+      level2: [10, 0.30000001192092896, 12, 0.30000001192092896],
+      level3: [10, 0.36000001430511475, 12, 0.30000001192092896],
+      level4: [10, 0.41999998688697815, 12, 0.30000001192092896],
+      level5: [10, 0.47999998927116394, 12, 0.30000001192092896],
+    },
+    icon: "UI_EquipIcon_Claymore_Pleroma",
+    awakeIcon: "UI_EquipIcon_Claymore_Pleroma_Awaken",
+  },
+  {
     weaponName: "恶王丸",
     weaponType: "双手剑",
     rankLevel: 4,
@@ -1821,22 +1930,6 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Claymore_Itadorimaru",
     awakeIcon: "UI_EquipIcon_Claymore_Itadorimaru_Awaken",
-  },
-  {
-    weaponName: "新手长枪",
-    weaponType: "长柄武器",
-    rankLevel: 1,
-    weaponProp: [
-      {
-        initValue: 23.2450008392334,
-        type: "GROW_CURVE_ATTACK_101",
-        propType: "FIGHT_PROP_BASE_ATTACK",
-      },
-    ],
-    descText: "笔直得像旗杆一般的长枪，挥舞起来颇具气势。足以应付大多数情况。",
-    id: 13101,
-    icon: "UI_EquipIcon_Pole_Gewalt",
-    awakeIcon: "UI_EquipIcon_Pole_Gewalt_Awaken",
   },
   {
     weaponName: "铁尖枪",
@@ -2357,6 +2450,37 @@ var zWep = [
     awakeIcon: "UI_EquipIcon_Pole_Arakalari_Awaken",
   },
   {
+    weaponName: "风信之锋",
+    weaponType: "长柄武器",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 42.4010009765625,
+        type: "GROW_CURVE_ATTACK_201",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.09000000357627869,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "攻击力百分比",
+      },
+    ],
+    descText: "导示长风的标鹄。风的牧歌并不总是轻柔如初…",
+    id: 13419,
+    skillAffixName: "不至之风",
+    skillAffixText:
+      "触发元素反应后的10秒内，攻击力提升<span>12%</span>，元素精通提升<span>48</span>点。",
+    skillAffixValue: {
+      level1: [0.11999999731779099, 48, 10],
+      level2: [0.15000000596046448, 60, 10],
+      level3: [0.18000000715255737, 72, 10],
+      level4: [0.20999999344348907, 84, 10],
+      level5: [0.23999999463558197, 96, 10],
+    },
+    icon: "UI_EquipIcon_Pole_Windvane",
+    awakeIcon: "UI_EquipIcon_Pole_Windvane_Awaken",
+  },
+  {
     weaponName: "护摩之杖",
     weaponType: "长柄武器",
     rankLevel: 5,
@@ -2551,6 +2675,48 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Pole_Narukami",
     awakeIcon: "UI_EquipIcon_Pole_Narukami_Awaken",
+  },
+  {
+    weaponName: "赤沙之杖",
+    weaponType: "长柄武器",
+    rankLevel: 5,
+    weaponProp: [
+      {
+        initValue: 44.33580017089844,
+        type: "GROW_CURVE_ATTACK_304",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 0.09600000083446503,
+        type: "GROW_CURVE_CRITICAL_301",
+        propType: "暴击率",
+      },
+    ],
+    descText:
+      "黑曜石塑造的一对的权杖中的一件。在传说中，具有引领沙之民的权威，但如今已经没有能辨别出这件王器形象的臣子了。",
+    id: 13511,
+    skillAffixName: "蜃气尽头的热梦",
+    skillAffixText:
+      "基于装备者元素精通的<span>52%</span>，获得攻击力加成。元素战技命中敌人时，将产生持续10秒的「赤沙之梦」效果：基于装备者元素精通的<span>28%</span>，获得攻击力加成，该效果至多叠加3层。",
+    skillAffixValue: {
+      level1: [
+        0.5199999809265137, 0.2800000011920929, 10, 0.30000001192092896, 3,
+      ],
+      level2: [
+        0.6499999761581421, 0.3499999940395355, 10, 0.30000001192092896, 3,
+      ],
+      level3: [
+        0.7799999713897705, 0.41999998688697815, 10, 0.30000001192092896, 3,
+      ],
+      level4: [
+        0.9100000262260437, 0.49000000953674316, 10, 0.30000001192092896, 3,
+      ],
+      level5: [
+        1.0399999618530273, 0.5600000023841858, 10, 0.30000001192092896, 3,
+      ],
+    },
+    icon: "UI_EquipIcon_Pole_Deshret",
+    awakeIcon: "UI_EquipIcon_Pole_Deshret_Awaken",
   },
   {
     weaponName: "学徒笔记",
@@ -3182,6 +3348,38 @@ var zWep = [
     },
     icon: "UI_EquipIcon_Catalyst_Jyanome",
     awakeIcon: "UI_EquipIcon_Catalyst_Jyanome_Awaken",
+  },
+  {
+    weaponName: "流浪的晚星",
+    weaponType: "法器",
+    rankLevel: 4,
+    weaponProp: [
+      {
+        initValue: 42.4010009765625,
+        type: "GROW_CURVE_ATTACK_201",
+        propType: "FIGHT_PROP_BASE_ATTACK",
+      },
+      {
+        initValue: 36,
+        type: "GROW_CURVE_CRITICAL_201",
+        propType: "元素精通",
+      },
+    ],
+    descText:
+      "原本是学者用于观测与计算天象的古老仪器。具有传导力量，作为法器的能力。",
+    id: 14416,
+    skillAffixName: "林野晚星",
+    skillAffixText:
+      "每10秒，产生如下效果：基于装备者的元素精通的<span>24%</span>，提升该角色的攻击力，并基于该提升的30%为队伍中附近的其他角色提升攻击力，持续12秒，多件同名武器产生的此效果可以叠加。角色处于队伍后台时也能触发效果。",
+    skillAffixValue: {
+      level1: [10, 0.23999999463558197, 12, 0.30000001192092896],
+      level2: [10, 0.30000001192092896, 12, 0.30000001192092896],
+      level3: [10, 0.36000001430511475, 12, 0.30000001192092896],
+      level4: [10, 0.41999998688697815, 12, 0.30000001192092896],
+      level5: [10, 0.47999998927116394, 12, 0.30000001192092896],
+    },
+    icon: "UI_EquipIcon_Catalyst_Pleroma",
+    awakeIcon: "UI_EquipIcon_Catalyst_Pleroma_Awaken",
   },
   {
     weaponName: "盈满之实",
